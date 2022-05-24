@@ -1,0 +1,32 @@
+.body-class {
+    background-color: black;
+}
+
+.grilla-productos-3x1{
+    display: grid;
+    background-color:yellow;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 30%;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.producto {
+    object-fit: cover;
+    width: 30%;
+    height: 30%;
+    padding: 50px;
+    -webkit-box-shadow: 0px 1px 32px 5px #000000; 
+    box-shadow: 0px 1px 32px 5px #000000;
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-top: 10%;
+    background-color: aliceblue;
+    border-radius: 3%;
+    
+}
+
+.producto img{
+    height : 100%;
+    width: 100%;
+}
